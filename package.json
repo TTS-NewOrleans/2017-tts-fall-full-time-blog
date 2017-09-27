@@ -1,5 +1,7 @@
 {
   "name": "tech_talent_blog",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
 }
