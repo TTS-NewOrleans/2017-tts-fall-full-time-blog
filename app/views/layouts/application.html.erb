@@ -15,7 +15,9 @@
           <!-- User Gravatar -->
           Welcome, <%= current_user.username %>
           <%= gravatar_tag current_user.email, size: 20 %>
-
+          <% if current_user.avatar.url %>
+            <%= image_tag current_user.avatar.url, size: 50 %>
+          <% end %>
           <!-- Edit User Profile Button -->
           <%= link_to 'Edit Profile', edit_user_registration_path, class: 'btn btn-primary' %>
 
