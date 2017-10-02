@@ -1,24 +1,7 @@
-# README
+# Blog - Class Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a basic blog app we built together for Tech Talent South Full Time Rails Code Immersion class.
 
-Things you may want to cover:
+This is my instructor code written for the class to follow.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Each individual student will have a custom individual front end built for their app.
