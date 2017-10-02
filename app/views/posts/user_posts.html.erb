@@ -1,0 +1,12 @@
+<h1>All Posts by <%= @user.username %></h1>
+
+<% @user.posts.each do |post| %>
+  <h3><%= post.title %></h3>
+  <p>
+    <em>posted on <%= post.created_at.strftime("%m/%d/%Y at %l:%M%P") %></em>
+  </p>
+
+  <p>
+    <%= post.blog_entry.html_safe %>
+  </p>
+<% end %>
