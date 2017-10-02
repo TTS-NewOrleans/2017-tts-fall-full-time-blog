@@ -12,6 +12,14 @@
     <div class="container">
       <div class="pull-right">
         <% if user_signed_in? %>
+          <!-- User Gravatar -->
+          Welcome, <%= current_user.username %>
+          <%= gravatar_tag current_user.email, size: 20 %>
+
+          <!-- Edit User Profile Button -->
+          <%= link_to 'Edit Profile', edit_user_registration_path, class: 'btn btn-primary' %>
+
+          <!-- Sign Out Button -->
           <%= link_to 'Sign Out', destroy_user_session_path, method: :delete, class: 'btn btn-danger' %>
         <% end %>
       </div>
